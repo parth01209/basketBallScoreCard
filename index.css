@@ -1,0 +1,65 @@
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+
+body{
+    margin: 0;
+    background-color: #0C4A6E;
+    font-family: 'Verdana';
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+.class--homesection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+
+}
+.class--guestsection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+
+}
+
+.class--score{
+    color: white;
+    background-color: black;
+    width:155px;
+    height: 155px;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    width: 35px;
+    height: 35px;
+}
+
+.btn1,.btn2,.btn3{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font-file.ttf);
+}
+
+.class--score-text,
+.class--score-text--guest{
+    font-size: 60px;
+    font-family: myFirstFont, serif;
+    color: #F94F6D;
+    
+}
